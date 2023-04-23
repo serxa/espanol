@@ -139,7 +139,7 @@ class Exercise {
     }
 
     congratulate() {
-        document.getElementById("card").innerText = "Je hebt deze woorden geleerd!";
+        document.getElementById("card").innerText = "Aprendiste estas palabras";
         document.getElementById("answer").style.display = "none";
     }
 
