@@ -189,6 +189,7 @@ var DICTS = {
         { es: "melocotón", ru: "персик" },
         { es: "un abrigo", ru: "пальто" },
         { es: "avión", ru: "самолет" },
+        { es: "cero", ru: "0" },
         { es: "uno", ru: "1" },
         { es: "dos", ru: "2" },
         { es: "tres", ru: "3" },
@@ -219,6 +220,38 @@ var DICTS = {
         { es: "yo preparo la cena", ru: "я готовлю ужин" },
         { es: "una copa", ru: "стакан" },
         { es: "un vino tinto", ru: "красное вино" },
+    ],
+    "Lección 4": [
+        { es: "¿Qué tiempo hace?", ru: "Как погода?" },
+
+        { es: "Hacer", ru: "делать" },
+        { es: "yo hago", ru: "я делаю" },
+        { es: "tú haces", ru: "ты делаешь" },
+        { es: "él hace", ru: "он делает" },
+        { es: "nosotros hacemos", ru: "мы делаем" },
+        { es: "vosotros haceis", ru: "вы делаете" },
+        { es: "ellos hacen", ru: "они делают" },
+
+        { es: "deberes de casa", ru: "домашние задания" },
+        { es: "un queso", ru: "сыр" },
+        { es: "una maramelada", ru: "варенье" },
+        { es: "un bocadilo", ru: "сэндвич" },
+        { es: "un grito", ru: "крик" },
+
+        { es: "Acabar", ru: "заканчивать" },
+        { es: "yo acabo de", ru: "я только что" },
+        { es: "tú acabas de", ru: "ты только что" },
+        { es: "él acaba de", ru: "он только что" },
+        { es: "nosotros acabamos de", ru: "мы только что" },
+        { es: "vosotros acabais de", ru: "вы только что" },
+        { es: "ellos acaban de", ru: "они только что" },
+
+        { es: "para", ru: "на" },
+        { es: "una plancha", ru: "утюг" },
+        { es: "Planchar", ru: "утюжить" },
+        { es: "llevar", ru: "носить" },
+        { es: "un vestido", ru: "платье" },
+
     ],
 };
 
