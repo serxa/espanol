@@ -160,6 +160,34 @@ class DictList {
     constructor() {
         this.card = new Card();
         this.selected = [];
+        this.createDictsForTags();
+    }
+
+    createDictsForTags() {
+        for (let dict in DICTS) {
+            for (let word of DICTS[dict]) {
+                if ("tag" in word) {
+                    let tags = [];
+                    if (typeof word.tag === "string") {
+                        tags.push(word.tag);
+                    } else if (typeof word.tag === typeof []) {
+                        for (let tag in word.tag)
+                            tags.push(tag);
+                    }
+                    for (let tag of tags) {
+                        let name;
+                        if (tag == "v") {
+                            name = "Verbos";
+                        } else {
+                            name = "Tag: " + tag;
+                        }
+                        if (!(name in DICTS))
+                            DICTS[name] = [];
+                        DICTS[name].push(word);
+                    }
+                }
+            }
+        }
     }
 
     render() {

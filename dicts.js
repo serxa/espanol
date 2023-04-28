@@ -1,5 +1,6 @@
 var DICTS = {
     "Lección 1": [
+        { es: "Ser", ru: "быть", tag: "v" },
         { es: "yo soy", ru: "я есть" },
         { es: "tú eres", ru: "ты есть" },
         { es: "él es", ru: "он есть" },
@@ -7,6 +8,7 @@ var DICTS = {
         { es: "vosotros sois", ru: "вы есть" },
         { es: "ellos son", ru: "они есть" },
 
+        { es: "Tener", ru: "иметь", tag: "v" },
         { es: "yo tengo", ru: "я имею" },
         { es: "tú tienes", ru: "ты имеешь" },
         { es: "él tiene", ru: "он имеет" },
@@ -14,6 +16,7 @@ var DICTS = {
         { es: "vosotros teneis", ru: "вы имеете" },
         { es: "ellos tienen", ru: "они имеют" },
 
+        { es: "Vivir", ru: "жить", tag: "v" },
         { es: "yo vivo", ru: "я живу" },
         { es: "tú vives", ru: "ты живешь" },
         { es: "él vive", ru: "он живет" },
@@ -21,6 +24,7 @@ var DICTS = {
         { es: "vosotros vivís", ru: "вы живёте" },
         { es: "ellos viven", ru: "они живут" },
 
+        { es: "Despertarse", ru: "просыпаться", tag: "v" },
         { es: "yo me despierto", ru: "я просыпаюсь" },
         { es: "tú te despiertas", ru: "ты просыпаешься" },
         { es: "él se despierta", ru: "он просыпается" },
@@ -28,6 +32,7 @@ var DICTS = {
         { es: "vosotros os despertais", ru: "вы просыпаетесь" },
         { es: "ellos se despiertan", ru: "они просыпаются" },
 
+        { es: "Levantarse", ru: "подниматься", tag: "v" },
         { es: "yo me levanto", ru: "я поднимаюсь" },
         { es: "tú te levantas", ru: "ты поднимаешься" },
         { es: "él se levanta", ru: "он поднимается" },
@@ -35,6 +40,7 @@ var DICTS = {
         { es: "vosotros os levantais", ru: "вы поднимаетесь" },
         { es: "ellos se levantan", ru: "они поднимаются" },
 
+        { es: "Ducharse", ru: "принимать душ", tag: "v" },
         { es: "yo me ducho", ru: "я принимаю душ (вз.)" },
         { es: "tú te duchas", ru: "ты принимаешь душ (вз.)" },
         { es: "él se ducha", ru: "он принимает душ (вз.)" },
@@ -42,6 +48,7 @@ var DICTS = {
         { es: "vosotros os duchais", ru: "вы принимаете душ (вз.)" },
         { es: "ellos se duchan", ru: "они принимают душ (вз.)" },
 
+        { es: "Tomar", ru: "брать", tag: "v" },
         { es: "yo tomo", ru: "я беру" },
         { es: "tú tomas", ru: "ты берешь" },
         { es: "él toma", ru: "он берет" },
@@ -49,6 +56,7 @@ var DICTS = {
         { es: "vosotros tomais", ru: "вы берете" },
         { es: "ellos toman", ru: "они берут" },
 
+        { es: "Vestir", ru: "одеваться", tag: "v" },
         { es: "yo me visto", ru: "я одеваюсь" },
         { es: "tú te vistes", ru: "ты одеваешься" },
         { es: "él se viste", ru: "он одевается" },
@@ -56,6 +64,7 @@ var DICTS = {
         { es: "vosotros os vestís", ru: "вы одеваетесь" },
         { es: "ellos visten", ru: "они одеваются" },
 
+        { es: "Desayunar", ru: "завтракать", tag: "v" },
         { es: "yo desayuno", ru: "я завтракаю" },
         { es: "tú desayunas", ru: "ты завтракаешь" },
         { es: "él desayuna", ru: "он завтракает" },
@@ -63,6 +72,7 @@ var DICTS = {
         { es: "vosotros desayunais", ru: "вы завтракаете" },
         { es: "ellos desayunan", ru: "они завтракают" },
 
+        { es: "Ponerse", ru: "надевать", tag: "v" },
         { es: "yo me pongo", ru: "я надеваю" },
         { es: "tú te pones", ru: "ты надеваешь" },
         { es: "él se pone", ru: "он надевает" },
@@ -70,6 +80,7 @@ var DICTS = {
         { es: "vosotros os poneis", ru: "вы надеваете" },
         { es: "ellos se ponen", ru: "они надевают" },
 
+        { es: "Poner", ru: "класть", tag: "v" },
         { es: "yo pongo", ru: "я кладу" },
         { es: "tú pones", ru: "ты кладешь" },
         { es: "él pone", ru: "он кладет" },
@@ -77,6 +88,7 @@ var DICTS = {
         { es: "vosotros poneis", ru: "вы кладете" },
         { es: "ellos ponen", ru: "они кладут" },
 
+        { es: "Salir", ru: "выходить", tag: "v" },
         { es: "yo salgo", ru: "я выхожу" },
         { es: "tú sales", ru: "ты выходишь" },
         { es: "él sale", ru: "он выходит" },
@@ -84,6 +96,7 @@ var DICTS = {
         { es: "vosotros salís", ru: "вы выходите" },
         { es: "ellos salen", ru: "они выходят" },
 
+        { es: "Ir", ru: "идти", tag: "v" },
         { es: "yo voy", ru: "я иду" },
         { es: "tú vas", ru: "ты идешь" },
         { es: "él va", ru: "он идет" },
@@ -92,6 +105,7 @@ var DICTS = {
         { es: "ellos van", ru: "они идут" },
     ],
     "Lección 2": [
+        { es: "Estar", ru: "находиться", tag: "v" },
         { es: "yo estoy", ru: "я быть" },
         { es: "tú estás", ru: "ты быть" },
         { es: "él está", ru: "он быть" },
@@ -118,6 +132,7 @@ var DICTS = {
         { es: "¿Qué tal?", ru: "Как вы?" },
         { es: "¿Cómo?", ru: "Как?" },
 
+        { es: "Beber", ru: "пить", tag: "v" },
         { es: "yo bebo", ru: "я пью" },
         { es: "tú bebes", ru: "ты пьешь" },
         { es: "él bebe", ru: "он пьет" },
@@ -125,6 +140,7 @@ var DICTS = {
         { es: "vosotros bebéis", ru: "вы пьете" },
         { es: "ellos beben", ru: "они пьют" },
 
+        { es: "Llamarse", ru: "зваться", tag: "v" },
         { es: "yo me llamo", ru: "меня зовут" },
         { es: "tú te llamas", ru: "тебя зовут" },
         { es: "él se llama", ru: "его зовут" },
@@ -132,6 +148,7 @@ var DICTS = {
         { es: "vosotros os llamais", ru: "вас зовут" },
         { es: "ellos se llaman", ru: "их зовут" },
 
+        { es: "Llego", ru: "прибывать", tag: "v" },
         { es: "yo llego", ru: "я прибывают" },
         { es: "tú llegas", ru: "ты прибываешь" },
         { es: "él llega", ru: "он прибывает" },
@@ -139,6 +156,7 @@ var DICTS = {
         { es: "vosotros llegais", ru: "вы прибываете" },
         { es: "ellos llegan", ru: "они прибывают" },
 
+        { es: "Venir", ru: "приходить", tag: "v" },
         { es: "yo vengo", ru: "я пришел" },
         { es: "tú vienes", ru: "ты пришел" },
         { es: "él viene", ru: "он пришел" },
@@ -146,12 +164,12 @@ var DICTS = {
         { es: "vosotros venís", ru: "вы пришли" },
         { es: "ellos vienen", ru: "они пришли" },
 
-        { es: "Comer", ru: "кушать, есть, обедать" },
+        { es: "Comer", ru: "кушать, есть, обедать", tag: "v" },
         { es: "Almorzar", ru: "обедать" },
         { es: "el almuerzo", ru: "обед" },
         { es: "una comida", ru: "еда" },
 
-        { es: "Cenar", ru: "ужинать" },
+        { es: "Cenar", ru: "ужинать", tag: "v" },
         { es: "yo ceno", ru: "я ужинаю" },
         { es: "tú cenas", ru: "ты ужинаешь" },
         { es: "él cena", ru: "он ужинает" },
@@ -166,7 +184,7 @@ var DICTS = {
         { es: "negro", ru: "черный" },
         { es: "ir a la cama", ru: "идти спать" },
 
-        { es: "Dormir", ru: "спать" },
+        { es: "Dormir", ru: "спать", tag: "v" },
         { es: "yo duermo", ru: "я сплю" },
         { es: "tú duermes", ru: "ты спишь" },
         { es: "él duerme", ru: "он спит" },
@@ -174,7 +192,7 @@ var DICTS = {
         { es: "vosotros dormís", ru: "вы спите" },
         { es: "ellos duermen", ru: "они спят" },
 
-        { es: "Acostarse", ru: "лечь спать" },
+        { es: "Acostarse", ru: "лечь спать", tag: "v" },
         { es: "yo me acuesto", ru: "я ложусь спать" },
         { es: "tú te acuestas", ru: "ты ложишься спать" },
         { es: "él se acuesta", ru: "он ложиться спать" },
@@ -205,7 +223,7 @@ var DICTS = {
         { es: "después", ru: "после" },
         { es: "perro", ru: "собака" },
 
-        { es: "Dar", ru: "давать" },
+        { es: "Dar", ru: "давать", tag: "v" },
         { es: "yo doy", ru: "я даю" },
         { es: "tú das", ru: "ты даешь" },
         { es: "él da", ru: "он дает" },
@@ -213,7 +231,7 @@ var DICTS = {
         { es: "vosotros dais", ru: "вы даете" },
         { es: "ellos dan", ru: "они дают" },
 
-        { es: "Pasear", ru: "гулять" },
+        { es: "Pasear", ru: "гулять", tag: "v" },
         { es: "un paseo", ru: "прогулка" },
         { es: "Coninar", ru: "готовить (cook)" },
         { es: "Preparar", ru: "готовить (prepare)" },
@@ -232,7 +250,7 @@ var DICTS = {
         { es: "bajo cero", ru: "ниже нуля" },
         { es: "sobre cero", ru: "выше нуля" },
 
-        { es: "Hacer", ru: "делать" },
+        { es: "Hacer", ru: "делать", tag: "v" },
         { es: "yo hago", ru: "я делаю" },
         { es: "tú haces", ru: "ты делаешь" },
         { es: "él hace", ru: "он делает" },
@@ -246,7 +264,7 @@ var DICTS = {
         { es: "un bocadilo", ru: "сэндвич" },
         { es: "un grito", ru: "крик" },
 
-        { es: "Acabar", ru: "заканчивать" },
+        { es: "Acabar", ru: "заканчивать", tag: "v" },
         { es: "yo acabo de", ru: "я только что" },
         { es: "tú acabas de", ru: "ты только что" },
         { es: "él acaba de", ru: "он только что" },
@@ -264,7 +282,7 @@ var DICTS = {
 };
 
 /*
-        { es: "", ru: "" },
+        { es: "", ru: "", tag: "v" },
         { es: "yo ", ru: "я " },
         { es: "tú ", ru: "ты " },
         { es: "él ", ru: "он " },
