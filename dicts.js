@@ -223,6 +223,14 @@ var DICTS = {
     ],
     "Lección 4": [
         { es: "¿Qué tiempo hace?", ru: "Как погода?" },
+        { es: "hace calor", ru: "жарко" },
+        { es: "hace frío", ru: "холодно" },
+        { es: "hace fresco", ru: "прохладно" },
+        { es: "llover", ru: "идти дождь" },
+        { es: "nevar", ru: "идти снег" },
+        { es: "grados", ru: "градусов" },
+        { es: "bajo cero", ru: "ниже нуля" },
+        { es: "sobre cero", ru: "выше нуля" },
 
         { es: "Hacer", ru: "делать" },
         { es: "yo hago", ru: "я делаю" },
