@@ -156,6 +156,27 @@ class Exercise {
     }
 }
 
+class View {
+    constructor(words, columns) {
+        this.words = words;
+        this.columns = columns;
+        this.node = document.getElementById("view");
+    }
+
+    run() {
+        let html = `<table class="view-table">`;
+        for (let word of this.words) {
+            html += `<tr>`;
+            for (let col of this.columns) {
+                html += `<td>${word[col]}</td>`;
+            }
+            html += `</tr>`;
+        }
+        html += `</table>`;
+        this.node.innerHTML = html;
+    }
+}
+
 class DictList {
     constructor() {
         this.card = new Card();
@@ -202,6 +223,7 @@ class DictList {
         }
         document.getElementById("btn-ru-es").onclick = () => this.onRun("ru", "es");
         document.getElementById("btn-es-ru").onclick = () => this.onRun("es", "ru");
+        document.getElementById("btn-view").onclick = () => this.onView(["es", "ru"]);
     }
 
     onToggle(name) {
@@ -229,6 +251,22 @@ class DictList {
             document.getElementById("dicts-menu").style.display = "none";
             let excecise = new Exercise(this.card, words, question_key, answer_key);
             excecise.run();
+        }
+    }
+
+    onView(columns) {
+        let words = [];
+        for (let name of this.selected) {
+            for (let word of DICTS[name]) {
+                words.push(word);
+            }
+        }
+        if (words.length > 0) {
+            document.getElementById("view").style.display = "";
+            document.getElementById("dicts").style.display = "none";
+            document.getElementById("dicts-menu").style.display = "none";
+            let view = new View(words, columns);
+            view.run();
         }
     }
 }

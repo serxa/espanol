@@ -13,12 +13,14 @@
         <div id="btn-y" class="button button-green">SI</div>
         <div id="btn-n" class="button button-red">NO</div>
     </div>
+    <div id="view" class="view"></div>
 
     <div id="dicts" class="dicts">
     </div>
     <div id="dicts-menu" class="buttons">
         <div id="btn-ru-es" class="button button-green">RU</div>
         <div id="btn-es-ru" class="button button-green">ES</div>
+        <div id="btn-view" class="button button-green">Ver</div>
     </div>
 
     <script src="dicts.js"></script>
@@ -26,6 +28,7 @@
     <script>
         document.getElementById("card").style.display = "none";
         document.getElementById("answer").style.display = "none";
+        document.getElementById("view").style.display = "none";
 
         let dictList = new DictList();
         dictList.render();
