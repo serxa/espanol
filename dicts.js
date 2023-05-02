@@ -56,7 +56,7 @@ var DICTS = {
         { es: "vosotros tomais", ru: "вы берете" },
         { es: "ellos toman", ru: "они берут" },
 
-        { es: "Vestir", ru: "одеваться", tag: "v" },
+        { es: "Vestirse", ru: "одеваться", tag: "v" },
         { es: "yo me visto", ru: "я одеваюсь" },
         { es: "tú te vistes", ru: "ты одеваешься" },
         { es: "él se viste", ru: "он одевается" },
@@ -277,11 +277,61 @@ var DICTS = {
         { es: "Planchar", ru: "утюжить" },
         { es: "llevar", ru: "носить" },
         { es: "un vestido", ru: "платье" },
+    ],
+    "Lección 5": [
+        { es: "ola de calor", ru: "жара" },
+        { es: "Sacar", ru: "выгуливать", tag: "v" },
 
+        { es: "mi ...", ru: "мой ..." },
+        { es: "tu ...", ru: "твой ..." },
+        { es: "su ...", ru: "его/их ..." },
+        { es: "nuestro ...", ru: "наш ..." },
+        { es: "vuestro ...", ru: "ваш ..." },
+
+        { es: "mío/mía", ru: "мой/моя" },
+        { es: "tuyo/tuya", ru: "твой/твоя" },
+        { es: "suyo/suya", ru: "его/их" },
+        { es: "nuestro/nuestra", ru: "наш/наша" },
+        { es: "vuestro/vuestra", ru: "ваш/ваша" },
+
+        { es: "este", ru: "этот" },
+        { es: "esta", ru: "эта" },
+        { es: "aquel", ru: "тот" },
+        { es: "aquella", ru: "та" },
+
+        { es: "tenedor", ru: "вилка" },
+        { es: "sobre", ru: "(действие) на" },
+        { es: "en", ru: "(место) на" },
+
+        { es: "ir de compras", ru: "идти за покупками" },
+        { es: "hacer compras", ru: "делать покупки" },
+        { es: "estar cansado/a", ru: "находиться в уставшем состоянии" },
+        { es: "estar casado", ru: "быть женатым/замужем" },
+
+        { es: "Quedarse", ru: "оставаться", tag: "v" },
+        { es: "yo me quedo", ru: "я остаюсь" },
+        { es: "tú te quedas", ru: "ты остаешься" },
+        { es: "él se queda", ru: "он остается" },
+        { es: "nosotros nos quedamos", ru: "мы остаемся" },
+        { es: "vosotros os quedais", ru: "вы остаетесь" },
+        { es: "ellos se quedan", ru: "они остаются" },
+
+        { es: "cuando", ru: "когда" },
+        { es: "carta", ru: "письмо" },
+
+        { es: "Escribir", ru: "писать", tag: "v" },
+        { es: "yo escribo", ru: "я пишу" },
+        { es: "tú escribes", ru: "ты пишешь" },
+        { es: "él escribe", ru: "он пишет" },
+        { es: "nosotros escribimos", ru: "мы пишем" },
+        { es: "vosotros escribís", ru: "вы пишете" },
+        { es: "ellos escriben", ru: "они пишут" },
     ],
 };
 
 /*
+        { es: "", ru: "" },
+
         { es: "", ru: "", tag: "v" },
         { es: "yo ", ru: "я " },
         { es: "tú ", ru: "ты " },
