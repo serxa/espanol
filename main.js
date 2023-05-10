@@ -199,6 +199,8 @@ class DictList {
                         let name;
                         if (tag == "v") {
                             name = "Verbos";
+                        } else if (tag == "n") {
+                            name = "Sustantivos";
                         } else {
                             name = "Tag: " + tag;
                         }
