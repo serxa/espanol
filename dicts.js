@@ -350,7 +350,7 @@ var DICTS = {
         { es: "un paseo", ru: "прогулка", tag: "n"  },
         { es: "la hora de la comida", ru: "обеденное время" },
 
-        { es: "Volver", ru: "", tag: "v" },
+        { es: "Volver", ru: "возвращаться", tag: "v" },
         { es: "yo vuelvo", ru: "я возвращаюсь" },
         { es: "tú vuelves", ru: "ты возвращаешься" },
         { es: "él vuelve", ru: "он возвращается" },
