@@ -201,6 +201,8 @@ class DictList {
                             name = "Verbos";
                         } else if (tag == "n") {
                             name = "Sustantivos";
+                        } else if (tag == "a") {
+                            name = "Adjectivos";
                         } else {
                             name = "Tag: " + tag;
                         }
