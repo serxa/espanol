@@ -431,6 +431,9 @@ var DICTS = {
         { es: "una cuchara", ru: "ложка", tag: "n" },
         { es: "un tenedor", ru: "вилка", tag: "n" },
     ],
+    "Test": [
+        { es: "un tenedor", ru: "вилка", tag: "n" },
+    ],
 };
 
 /*
