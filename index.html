@@ -23,9 +23,9 @@
         <div id="btn-view" class="button button-green">Ver</div>
     </div>
 
-    <script src="dicts.js"></script>
-    <script src="main.js"></script>
-    <script>
+    <script type="module" src="main.js"></script>
+    <script type="module">
+        import { DictList } from "./main.js";
         document.getElementById("card").style.display = "none";
         document.getElementById("answer").style.display = "none";
         document.getElementById("view").style.display = "none";

@@ -1,3 +1,10 @@
+'use strict';
+
+import DICTS1 from "./dicts1.js";
+import DICTS2 from "./dicts2.js";
+
+var DICTS = Object.assign({}, DICTS1, DICTS2);
+
 class Card {
     constructor() {
         this.state = 'init';
@@ -177,7 +184,7 @@ class View {
     }
 }
 
-class DictList {
+export class DictList {
     constructor() {
         this.card = new Card();
         this.selected = [];

@@ -1,4 +1,4 @@
-var DICTS = {
+export default {
     "Lección 1": [
         { es: "Ser", ru: "быть", tag: "v" },
         { es: "yo soy", ru: "я есть" },
@@ -113,7 +113,7 @@ var DICTS = {
         { es: "vosotros estais", ru: "вы быть" },
         { es: "ellos están", ru: "они быть" },
 
-        { es: "un casa", ru: "дом", tag: "n" },
+        { es: "una casa", ru: "дом", tag: "n" },
         { es: "un trabajo", ru: "работа", tag: "n" },
         { es: "una mujer", ru: "дeвушка", tag: "n" },
         { es: "un esposo", ru: "супруг", tag: "n" },
@@ -237,7 +237,7 @@ var DICTS = {
         { es: "Cocinar", ru: "готовить (cook)" },
         { es: "Preparar", ru: "готовить (prepare)" },
         { es: "yo preparo la cena", ru: "я готовлю ужин" },
-        { es: "una copa", ru: "стакан" },
+        { es: "una copa", ru: "бокал" },
         { es: "un vino tinto", ru: "красное вино" },
     ],
     "Lección 4": [
@@ -431,8 +431,38 @@ var DICTS = {
         { es: "una cuchara", ru: "ложка", tag: "n" },
         { es: "un tenedor", ru: "вилка", tag: "n" },
     ],
-    "Test": [
-        { es: "un tenedor", ru: "вилка", tag: "n" },
+    "Lección 9": [
+        { es: "Empezar", ru: "начинать", tag: "v" },
+        { es: "yo empiezo", ru: "я начинаю" },
+        { es: "tú empiezas", ru: "ты начинаешь" },
+        { es: "él empieza", ru: "он начинает" },
+        { es: "nosotros empezamos", ru: "мы начинаем" },
+        { es: "vosotros empezais", ru: "вы начинаете" },
+        { es: "ellos empiezan", ru: "они начинают" },
+
+        { es: "un vaso", ru: "стакан", tag: "n" },
+        { es: "sacar/pasar un examen", ru: "сдать экзамен" },
+        { es: "muy", ru: "очень" },
+        { es: "guapa", ru: "симпатичный" },
+        { es: "fuerte", ru: "сильный", tag: "a" },
+        { es: "caro", ru: "дорогой", tag: "a" },
+        { es: "", ru: "", tag: "a" },
+        { es: "", ru: "", tag: "a" },
+        { es: "", ru: "", tag: "a" },
+        { es: "", ru: "", tag: "a" },
+        { es: "", ru: "", tag: "a" },
+        { es: "calle", ru: "улица", tag: "n" },
+        { es: "un frigorífico", ru: "", tag: "n" },
+        { es: "un congelador", ru: "", tag: "n" },
+        { es: "Haber", ru: "There is", tag: "v" },
+        { es: "", ru: "", tag: "v" },
+        { es: "", ru: "", tag: "v" },
+        { es: "", ru: "", tag: "v" },
+        { es: "mucho", ru: "много" },
+        { es: "gente", ru: "люди" },
+        { es: "hoy", ru: "сегодня" },
+        { es: "", ru: "" },
+        { es: "", ru: "" },
     ],
 };
 
