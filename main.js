@@ -1,5 +1,3 @@
-'use strict';
-
 import DICTS1 from "./dicts1.js";
 import DICTS2 from "./dicts2.js";
 

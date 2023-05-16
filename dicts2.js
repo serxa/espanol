@@ -1,5 +1,3 @@
-'use strict';
-
 export default {
     "Test": [
         { es: "un tenedor", ru: "вилка", tag: "n" },
