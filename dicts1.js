@@ -458,8 +458,9 @@ export default {
     ],
     "Lección 10": [
         { es: "¿Quien?", ru: "Кто?" },
-        { es: "¿Cómo?", ru: "Как" },
+        { es: "¿Cómo?", ru: "Как?" },
         { es: "¿Cuando?", ru: "Когда?" },
+        { es: "¿Cuantos?", ru: "Сколько?" },
         { es: "una tienda", ru: " магазин", tag: "n" },
         { es: "verano", ru: "лето", tag: "n" },
         { es: "invierno", ru: "зима", tag: "n" },
@@ -475,7 +476,14 @@ export default {
         { es: "ellos pueden", ru: "они могут" },
 
         { es: "Leer", ru: "читать", tag: "v" },
-        { es: "Ayudarse", ru: "помогать", tag: "v" },
+        { es: "yo leo", ru: "я читаю" },
+        { es: "tú lees", ru: "ты читаешь" },
+        { es: "él lee", ru: "он читает" },
+        { es: "nosotros leemos", ru: "мы читаем" },
+        { es: "vosotros leéis", ru: "вы читаете" },
+        { es: "ellos leen", ru: "они читают" },
+
+        { es: "Ayudar", ru: "помогать", tag: "v" },
 
         { es: "una vaca", ru: "корова", tag: "n" },
         { es: "una carne", ru: "мясо", tag: "n" },
@@ -485,6 +493,40 @@ export default {
         { es: "pollo", ru: "курица", tag: "n" },
         { es: "mixta", ru: "смесь", tag: "n" },
         { es: "un pan", ru: "хлеб", tag: "n" },
+
+        // TODO: Comidas y bebidas
+        /*
+        agua
+        huevos яйца
+        leche молоко
+        sopa суп
+        verdura зелень овощи
+        */
+    ],
+    "Lección 10": [
+        { es: "Seguir", ru: "продолжать", tag: "v" },
+        { es: "yo sigo", ru: "я продолжаю" },
+        { es: "tú sigues", ru: "ты продолжаешь" },
+        { es: "él sigue", ru: "он продолжает" },
+        { es: "nosotros seguimos", ru: "мы продолжаем" },
+        { es: "vosotros seguís", ru: "вы продолжаете" },
+        { es: "ellos siguen", ru: "они продолжают" },
+
+        { es: "Estudiar", ru: "учить", tag: "v" },
+        { es: "Decir", ru: "сказать", tag: "v" },
+        { es: "Pedir", ru: "просить", tag: "v" },
+        { es: "Oír", ru: "слышать", tag: "v" },
+
+        { es: "Traer", ru: "приносить", tag: "v" },
+        { es: "yo traigo", ru: "я приносим" },
+        { es: "tú traes", ru: "ты приносишь" },
+        { es: "él trae", ru: "он приносит" },
+        { es: "nosotros traemos", ru: "мы приносим" },
+        { es: "vosotros traéis", ru: "вы приносите" },
+        { es: "ellos traen", ru: "они приносят" },
+
+        { es: "todavía", ru: "ещё" },
+        { es: "siempre", ru: "всегда" },
     ],
 };
 
