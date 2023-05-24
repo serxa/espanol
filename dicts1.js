@@ -504,7 +504,7 @@ export default {
         verdura зелень овощи
         */
     ],
-    "Lección 10": [
+    "Lección 11": [
         { es: "Seguir", ru: "продолжать", tag: "v" },
         { es: "yo sigo", ru: "я продолжаю" },
         { es: "tú sigues", ru: "ты продолжаешь" },
@@ -529,7 +529,7 @@ export default {
         { es: "todavía", ru: "ещё" },
         { es: "siempre", ru: "всегда" },
     ],
-    "Lección 10": [
+    "Lección 12": [
         { es: "un libro", ru: "книга", tag: "n" },
         { es: "Tocar", ru: "играть на инструменте", tag: "v" },
         { es: "por teléfono", ru: "по телефону" },
