@@ -493,6 +493,7 @@ export default {
         { es: "pollo", ru: "курица", tag: "n" },
         { es: "mixta", ru: "смесь", tag: "n" },
         { es: "un pan", ru: "хлеб", tag: "n" },
+        { es: "una mantequilla", ru: "масло", tag: "n" },
 
         // TODO: Comidas y bebidas
         /*
@@ -527,6 +528,34 @@ export default {
 
         { es: "todavía", ru: "ещё" },
         { es: "siempre", ru: "всегда" },
+    ],
+    "Lección 10": [
+        { es: "un libro", ru: "книга", tag: "n" },
+        { es: "Tocar", ru: "играть на инструменте", tag: "v" },
+        { es: "por teléfono", ru: "по телефону" },
+        { es: "temprano", ru: "рано" },
+        { es: "el fútbol", ru: "футбол", tag: "n" },
+
+        { es: "tener que", ru: "долженствовать" },
+
+        { es: "Acabarse", ru: "закончиться", tag: "v" },
+        { es: "se acaba el partido", ru: "игра окончена" },
+
+        { es: "Olvidar", ru: "забывать", tag: "v" },
+        { es: "yo olvido", ru: "я забываю" },
+        { es: "tú olvidas", ru: "ты забываешь" },
+        { es: "él olvida", ru: "он забывает" },
+        { es: "nosotros olvidamos", ru: "мы забываем" },
+        { es: "vosotros olvidais", ru: "вы забываете" },
+        { es: "ellos olvidan", ru: "они забывают" },
+
+        { es: "Olvidarse", ru: "забываться", tag: "v" },
+        { es: "a mi se me olvida...", ru: "мне забывается..." },
+        { es: "a ti se te olvida...", ru: "тебе забывается..." },
+        { es: "a él se le olvida...", ru: "ему забывается..." },
+        { es: "a nosotros se nos olvida...", ru: "нам забывается..." },
+        { es: "a vosotros se os olvida...", ru: "вам забывается..." },
+        { es: "a ellos se les olvida...", ru: "им забывается..." },
     ],
 };
 
