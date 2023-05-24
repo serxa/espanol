@@ -1,6 +1,7 @@
 export default {
     "Test": [
         { es: "un tenedor", ru: "вилка", tag: "n" },
+        { es: "hay", ru: "есть", tag: "v" },
     ]
 };
 
