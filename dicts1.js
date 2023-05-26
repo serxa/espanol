@@ -560,10 +560,9 @@ export default {
     "Lección 13": [
         { es: "Abrir", ru: "открывать", tag: "v" },
         { es: "Apagar", ru: "выключать", tag: "v" },
-        { es: "", ru: "", tag: "v" },
         { es: "una ventana", ru: "окно", tag: "n" },
         { es: "la luz", ru: "свет", tag: "n" },
-        { es: "una oficina", ru: "свет", tag: "n" },
+        { es: "una oficina", ru: "офис", tag: "n" },
         { es: "una helado", ru: "мороженное", tag: "n" },
         { es: "un pimiento", ru: "перец", tag: "n" },
         { es: "un pepino", ru: "огурец", tag: "n" },
