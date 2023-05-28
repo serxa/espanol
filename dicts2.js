@@ -1,7 +1,30 @@
 export default {
-    "Test": [
-        { es: "un tenedor", ru: "вилка", tag: "n" },
-        { es: "hay", ru: "есть", tag: "v" },
+    "28 de mayo": [
+        { es: "asi, asi", ru: "так себе" },
+        { es: "Lo siento", ru: "Прости/простите" },
+        { es: "ahora", ru: "cейчас" },
+        { es: "vale", ru: "хорошо/окей" },
+        { es: "Hasta luego", ru: "До встречи" },
+        { es: "el campo", ru: "сельская местность/деревня" },
+        { es: "el vaso", ru: "стакан" },
+        { es: "el tesoro", ru: "сокровище" },
+        { es: "el regalo", ru: "подарок" },
+        { es: "el dado", ru: "игральная кость" },
+        { es: "el plato", ru: "тарелка" },
+        { es: "la mesa", ru: "стол" },
+        { es: "la silla", ru: "стул" },
+        { es: "la puerta", ru: "дверь" },
+        { es: "la ventana", ru: "окно" },
+        { es: "la cama", ru: "кровать" },
+        { es: "la pelota", ru: "мяч" },
+        { es: "la maleta", ru: "чемодан" },
+        { es: "la mariposa", ru: "бабочка" },
+        { es: "el páharo", ru: "птичка" },
+        { es: "el banco", ru: "скамейка" },
+        { es: "la bolsa", ru: "пакет" },
+        { es: "el cuaderno", ru: "тетрадь" },
+        { es: "el mercado", ru: "рынок" },
+        { es: "la tienda", ru: "магазин" },
     ]
 };
 
