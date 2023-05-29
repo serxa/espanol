@@ -608,7 +608,7 @@ export default {
 
         { es: "Llevarse bien con alguien", ru: "ладить с кем-то" },
 
-        { es: "Tener ganas", ru: "иметь охоту, желание" },
+        { es: "Tener ganas de", ru: "иметь охоту, желание" },
 
         { es: "Apetecerse", ru: "иметь желание (про еду)" },
         { es: "Me apetecen los helados", ru: "Мне нравятся мороженные" },
