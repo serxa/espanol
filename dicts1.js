@@ -585,6 +585,35 @@ export default {
         { es: "vosotros quereis", ru: "вы хотите" },
         { es: "ellos quieren", ru: "они хотят" },
     ],
+    "Lección 14": [
+        { es: "una ciudad", ru: "город", tag: "n" },
+        { es: "ahí", ru: "там" },
+        { es: "aquí", ru: "здесь" },
+        { es: "luego", ru: "затем" },
+        { es: "bien", ru: "хорошо" },
+        { es: "mal", ru: "плохо" },
+        { es: "alguien", ru: "кто-то" },
+        { es: "cafetería", ru: "кофейня", tag: "n" },
+        { es: "jefe", ru: "босс", tag: "n" },
+        { es: "un trozo", ru: "кусок", tag: "n" },
+        { es: "tarta", ru: "торт", tag: "n" },
+        { es: "una frambuesa", ru: "малина", tag: "n" },
+        { es: "por eso", ru: "поэтому" },
+
+        { es: "Quedar", ru: "встречаться", tag: "v" },
+        { es: "Viajar", ru: "путешествовать", tag: "v" },
+
+        { es: "Quedarse bien con alguien", ru: "оставаться в хороших отношиениях с кем-то" },
+        { es: "Quedarse mal con alguien", ru: "терять лицо перед кем-то" },
+
+        { es: "Llevarse bien con alguien", ru: "ладить с кем-то" },
+
+        { es: "Tener ganas", ru: "иметь охоту, желание" },
+
+        { es: "Apetecerse", ru: "иметь желание (про еду)" },
+        { es: "Me apetecen los helados", ru: "Мне нравятся мороженные" },
+
+    ],
 };
 
 /*
