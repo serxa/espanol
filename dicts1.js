@@ -597,7 +597,6 @@ export default {
         { es: "jefe", ru: "босс", tag: "n" },
         { es: "un trozo", ru: "кусок", tag: "n" },
         { es: "tarta", ru: "торт", tag: "n" },
-        { es: "una frambuesa", ru: "малина", tag: "n" },
         { es: "por eso", ru: "поэтому" },
 
         { es: "Quedar", ru: "встречаться", tag: "v" },
@@ -612,10 +611,29 @@ export default {
 
         { es: "Apetecerse", ru: "иметь желание (про еду)" },
         { es: "Me apetecen los helados", ru: "Мне нравятся мороженные" },
-
+    ],
+    "Lección 14": [
+        { es: "una fresa", ru: "клубника", tag: "n" },
+        { es: "una frambuesa", ru: "малина", tag: "n" },
+        { es: "una empresa", ru: "компания", tag: "n" },
+        { es: "el tren", ru: "поезд", tag: "n" },
+        { es: "más", ru: "больше" },
+        { es: "más ... que ...", ru: "больше ... чем" },
+        { es: "menos", ru: "меньше" },
+        { es: "menos ... que ...", ru: "меньше ... чем" },
+        { es: "Visitar a", ru: "посещать", tag: "v" },
+        { es: "abuela", ru: "бабушка", tag: "n" },
+        { es: "abuelo", ru: "дедушка", tag: "n" },
+        { es: "Llevarse", ru: "отвозить", tag: "v" },
+        { es: "Casarse", ru: "жениться", tag: "v" },
+        { es: "Ellos llevan casados 2 años", ru: "Они женаты 2 года" },
+        { es: "fin de semana", ru: "выходные (weekend)" },
+        { es: "fin", ru: "конец", tag: "n" },
+        { es: "semana", ru: "неделя", tag: "n" },
+        { es: "Llamar", ru: "звонить", tag: "v" },
+        { es: "más temprano", ru: "раньше" },
     ],
 };
-
 /*
         { es: "", ru: "" },
         { es: "", ru: "", tag: "n" },
