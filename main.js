@@ -186,7 +186,39 @@ export class DictList {
     constructor() {
         this.card = new Card();
         this.selected = [];
+        this.processTextWords();
         this.createDictsForTags();
+    }
+
+    processTextWords() {
+        for (let dict in DICTS) {
+            for (let i = 0; i < DICTS[dict].length; i++) {
+                if (typeof DICTS[dict][i] === "string") {
+                    let words = [];
+                    for (let line of DICTS[dict][i].split("\n")) {
+                        if (line.trim().substring(0, 2) == "//")
+                            continue;
+                        let tags = [];
+                        var tag;
+                        var regex = /#([A-Za-z0-9_]+)/g;
+                        while (tag = regex.exec(line)) {
+                            tags.push(tag[1]);
+                        }
+                        let line_no_tags = line.replaceAll(/#[a-zA-Z0-9_]*/g, "");
+                        let parts = line_no_tags.split(" - ").map(s => s.trim());
+                        if (parts.length == 2) {
+                            words.push({
+                                es: parts[0],
+                                ru: parts[1],
+                                tag: tags
+                            });
+                        }
+                    }
+                    DICTS[dict].splice(i, 1, ...words);
+                    i += words.length - 1;
+                }
+            }
+        }
     }
 
     createDictsForTags() {
@@ -197,7 +229,7 @@ export class DictList {
                     if (typeof word.tag === "string") {
                         tags.push(word.tag);
                     } else if (typeof word.tag === typeof []) {
-                        for (let tag in word.tag)
+                        for (let tag of word.tag)
                             tags.push(tag);
                     }
                     for (let tag of tags) {

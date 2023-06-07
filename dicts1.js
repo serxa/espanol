@@ -221,6 +221,7 @@ export default {
         { es: "once", ru: "11" },
         { es: "doce", ru: "12" },
         { es: "catorce", ru: "14" },
+        { es: "quince", ru: "15" },
         { es: "después", ru: "после" },
         { es: "perro", ru: "собака" },
 
@@ -446,14 +447,14 @@ export default {
         { es: "fuerte", ru: "сильный", tag: "a" },
         { es: "caro", ru: "дорогой", tag: "a" },
         { es: "calle", ru: "улица", tag: "n" },
-        { es: "un frigorífico", ru: "холодильник", tag: "n" },
+        { es: "un frigorífico, nevera", ru: "холодильник", tag: "n" },
         { es: "un congelador", ru: "морозильник", tag: "n" },
         { es: "Haber", ru: "There is", tag: "v" },
         { es: "mucho", ru: "много" },
         { es: "gente", ru: "люди" },
         { es: "hoy", ru: "сегодня" },
         { es: "por la tarde", ru: "днем" },
-        { es: "cine", ru: "кинотеатр" },
+        { es: "un cine", ru: "кинотеатр" },
         { es: "Comprar", ru: "покупать", tag: "v" },
     ],
     "Lección 10": [
@@ -612,7 +613,7 @@ export default {
         { es: "Apetecerse", ru: "иметь желание (про еду)" },
         { es: "Me apetecen los helados", ru: "Мне нравятся мороженные" },
     ],
-    "Lección 14": [
+    "Lección 15": [
         { es: "una fresa", ru: "клубника", tag: "n" },
         { es: "una frambuesa", ru: "малина", tag: "n" },
         { es: "una empresa", ru: "компания", tag: "n" },
@@ -633,7 +634,83 @@ export default {
         { es: "Llamar", ru: "звонить", tag: "v" },
         { es: "más temprano", ru: "раньше" },
     ],
+    "Lección 16": [
+        `
+        // Форма образования Pretérito Perfecto: Haber + Participio
+        // yo	he
+        // tú	has
+        // él/ella/usted	ha
+        // nosotros/as	hemos
+        // vosotros/as	habéis
+        // ellos/ellas/ustedes	han
+        // Yo he trabaj-ado
+        // tú has habl-ado
+
+        ir-ido - идти (пр. вр.)
+        ver-visto - видеть (пр. вр.)
+        decir-dicho - сказать (пр. вр.)
+        hacer-hecho - делать (пр. вр.)
+        abrir-abierto - открыть (пр. вр.)
+        escribir-escrito - писать (пр. вр.)
+        freír-frito - жарить (пр. вр.)
+        romper-roto - разрывать, ломать (пр. вр.)
+        poner-puesto - положить (пр. вр.)
+        volver-vuelto - возвращаться (пр. вр.)
+        resolver-resuelto - решить (пр. вр.)
+        morir-muerto - умереть (пр. вр.)
+        descubrir-descubierto - раскрывать (пр. вр.)
+        ser-sido - быть (пр. вр.)
+
+        nunca - никогда
+        hoy - сегодня
+        ya - уже
+        todavía, aún - еще (все еще)
+        nunca - никогда
+        últimamente - в последнее время
+        esta mañana (esta tarde, esta noche) - сегодня утром (сегодня днем, сегодня ночью)
+        esta semana - на этой неделе
+        este mes - в этом месяце
+        este año - в этом году
+        este siglo - в этом веке
+        hace un rato - недавно
+
+        desde el año pasado / mes / semana - с прошлого года / месяца / недели
+        soleado - солнечный
+
+        lo que - который
+        Сerrar - закрывать #v
+        Irse - уехать #v
+        Vender - продавать #v
+        salir con alguien - встретиться (выйти) с кем-то (неформально)
+        `,
+    ],
+    "Lección 17": [`
+        hace ... - ... тому назад
+        un minuto - минута
+        un marido - муж
+        una hermana - сестра
+        un hermano - брат
+        un bolso - сумка
+        unа bolsа - пакет
+        un monedero, un billetero - бумажник #v
+        una cartera - портфель, бумажник
+        Perder - терять"  #v
+    `],
+    "Lección 18": [`
+        descansar - отдыхать #v
+        el bosque - лес #n
+        devolver - вернуть #v
+        enviar - отправить #v
+        llegar tarde - опаздывать #v
+        una puerta - дверь #n
+        una peluqueria - парикмахерская #n
+        cortar el pelo - стричь #v
+        dejar - оставить #v
+    `]
 };
+
+
+
 /*
         { es: "", ru: "" },
         { es: "", ru: "", tag: "n" },
