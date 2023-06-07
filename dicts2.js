@@ -25,6 +25,12 @@ export default {
         { es: "el cuaderno", ru: "тетрадь" },
         { es: "el mercado", ru: "рынок" },
         { es: "la tienda", ru: "магазин" },
+    ],
+    "test dict": [
+        `
+        la tienda - магазин
+        el mercado - рынок
+        `
     ]
 };
 
