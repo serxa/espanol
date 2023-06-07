@@ -31,7 +31,13 @@ export default {
         la tienda - магазин
         el mercado - рынок
         `
-    ]
+    ],
+    "test dict2": [
+        `
+        la tienda - магазин
+        el mercado - рынок
+        `
+    ],
 };
 
 /*
