@@ -634,8 +634,7 @@ export default {
         { es: "Llamar", ru: "звонить", tag: "v" },
         { es: "más temprano", ru: "раньше" },
     ],
-    "Lección 16": [
-        `
+    "Lección 16": `
         // Форма образования Pretérito Perfecto: Haber + Participio
         // yo	he
         // tú	has
@@ -682,9 +681,8 @@ export default {
         Irse - уехать #v
         Vender - продавать #v
         salir con alguien - встретиться (выйти) с кем-то (неформально)
-        `,
-    ],
-    "Lección 17": [`
+    `,
+    "Lección 17": `
         hace ... - ... тому назад
         un minuto - минута
         un marido - муж
@@ -695,8 +693,8 @@ export default {
         un monedero, un billetero - бумажник #v
         una cartera - портфель, бумажник
         Perder - терять"  #v
-    `],
-    "Lección 18": [`
+    `,
+    "Lección 18": `
         descansar - отдыхать #v
         el bosque - лес #n
         devolver - вернуть #v
@@ -706,10 +704,8 @@ export default {
         una peluqueria - парикмахерская #n
         cortar el pelo - стричь #v
         dejar - оставить #v
-    `]
+    `
 };
-
-
 
 /*
         { es: "", ru: "" },

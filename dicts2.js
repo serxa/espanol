@@ -26,18 +26,15 @@ export default {
         { es: "el mercado", ru: "рынок" },
         { es: "la tienda", ru: "магазин" },
     ],
-    "test dict": [
-        `
+    "test dict": `
         la tienda - магазин
         el mercado - рынок
-        `
-    ],
-    "test dict2": [
-        `
+    `,
+    "test dict2": `
+        // Комментарий
         la tienda - магазин
         el mercado - рынок
-        `
-    ],
+    `,
 };
 
 /*

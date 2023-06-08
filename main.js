@@ -186,8 +186,18 @@ export class DictList {
     constructor() {
         this.card = new Card();
         this.selected = [];
+        this.processTextDicts();
         this.processTextWords();
         this.createDictsForTags();
+    }
+
+    processTextDicts() {
+        for (let dict in DICTS) {
+            if (typeof DICTS[dict] === "string") {
+                let text = DICTS[dict];
+                DICTS[dict] = [text];
+            }
+        }
     }
 
     processTextWords() {
