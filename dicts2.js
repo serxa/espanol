@@ -61,7 +61,11 @@ export default {
         { es: "gustar/me gusta", ru: "нравиться/ мне нравится" },
         { es: "besar", ru: "целовать" },
         { es: "salir con alguien", ru: "встречаться с кем-то" },
-        { es: "llevarse bien con alguien", ru: "хорошо ладить с кем-то" }
+        { es: "llevarse bien con alguien", ru: "хорошо ладить с кем-то" },
+        { es: "querido", ru: "дорогой, милый" },
+        { es: "querida", ru: "дорогая, милая" },
+        { es: "cariño", ru: "дорогой" },
+        { es: "mi amor", ru: "любовь моя" },
     ]
 };
 
