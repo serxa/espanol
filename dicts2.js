@@ -26,15 +26,43 @@ export default {
         { es: "el mercado", ru: "рынок" },
         { es: "la tienda", ru: "магазин" },
     ],
-    "test dict": `
-        la tienda - магазин
-        el mercado - рынок
-    `,
-    "test dict2": `
-        // Комментарий
-        la tienda - магазин
-        el mercado - рынок
-    `,
+    "familia": [
+        { es: "estar soltero", ru: "быть холостым" },
+        { es: "estar casada", ru: "быть замужем" },
+        { es: "la prima", ru: "двоюродная сестра" },
+        { es: "el primo", ru: "двоюродный брат" },
+        { es: "la sobrina", ru: "племянница" },
+        { es: "el sobrino", ru: "племянник" },
+        { es: "la familia", ru: "ceмья" },
+        { es: "la abuela", ru: "бабушка" },
+        { es: "el abuelo", ru: "дедушка" },
+        { es: "la tia", ru: "тетя" },
+        { es: "el tio", ru: "дядя" },
+        { es: "el hijo", ru: "сын" },
+        { es: "el hija", ru: "дочь" },
+        { es: "el hermano", ru: "брат" },
+        { es: "el hermana", ru: "сестра" },
+        { es: "la madre", ru: "мать" },
+        { es: "el padre", ru: "отец" },
+        { es: "parientes", ru: "родственники" },
+        { es: "padres", ru: "родители" },
+        { es: "menor", ru: "младший" },
+        { es: "mayor", ru: "старший" },
+        { es: "el nieto", ru: "внук" },
+        { es: "el nieta", ru: "внучка" },
+        { es: "el marido", ru: "муж" },
+        { es: "la mujer", ru: "жена/женщина" },
+        { es: "la esposa", ru: "жена" },
+        { es: "la pareja", ru: "партнер" },
+        { es: "el novio", ru: "жених" },
+        { es: "el novia", ru: "невеста" },
+        { es: "un matrimonio", ru: "брак" },
+        { es: "casarse", ru: "жениться/выйти замуж" },
+        { es: "gustar/me gusta", ru: "нравиться/ мне нравится" },
+        { es: "besar", ru: "целовать" },
+        { es: "salir con alguien", ru: "встречаться с кем-то" },
+        { es: "llevarse bien con alguien", ru: "хорошо ладить с кем-то" }
+    ]
 };
 
 /*
