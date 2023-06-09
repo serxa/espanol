@@ -677,7 +677,7 @@ export default {
         soleado - солнечный
 
         lo que - который
-        Сerrar - закрывать #v
+        Cerrar - закрывать #v
         Irse - уехать #v
         Vender - продавать #v
         salir con alguien - встретиться (выйти) с кем-то (неформально)
@@ -689,7 +689,7 @@ export default {
         una hermana - сестра
         un hermano - брат
         un bolso - сумка
-        unа bolsа - пакет
+        una bolsa - пакет
         un monedero, un billetero - бумажник #v
         una cartera - портфель, бумажник
         Perder - терять"  #v
@@ -704,6 +704,74 @@ export default {
         una peluqueria - парикмахерская #n
         cortar el pelo - стричь #v
         dejar - оставить #v
+    `,
+    "Lección 19": `
+        ventoso - ветренный
+        hace aire - ветренно
+
+        Saber - знать #v
+        Yo se - я знаю
+        tú sabes - ты знаешь
+        él sabe - он знает
+        nosotros sabemos - мы знаем
+        vosotros sabeís - вы знаете
+        ellos saben - они знают
+
+        lunes - понедельник #n
+        martes - вторник #n
+        miércoles - среда #n
+        jueves - четверг #n
+        viernes - пятница #n
+        sábado - суббота #n
+        domingo - воскресенье #n
+
+        darse pereza - даётся лень
+        // Me da pereza ir al trabajo
+
+        Ofrecer - предложить #v
+        Yo ofrezco - я предлагаю
+        tú ofreces - ты предлагаешь
+        él ofrece - он предлагает
+        nosotros ofrecemos - мы предлагаем
+        vosotros ofreceis - вы предлагаете
+        ellos ofrecen - они предлагают
+
+        un puesto - должность
+        mejor pagado - получше оплачеваемое
+        bueno-mejor - хороший-лучше
+
+        Aprovecharse - воспользоваться #v
+        Yo me aprovecho - я воспользовался
+        tú te aprovechas - ты воспользовался
+        él se aprovecha - он воспользовался
+        nosotros nos aprovechamos - мы воспользовались
+        vosotros os aprovechais - вы воспользовались
+        ellos se aprovechan - они воспользовались
+
+        // Mi jefe me ha ofrecido un puesto mejor pagado y voy a aprovecharme de esta oferta
+
+        una oferta - предложение
+
+        Regañar - ругать #v
+        Yo regaño - я ругаю
+
+        // Mi madre me regaña porque ella piensa que mis collegas(compis) se aprovechan de mi amabilidad
+
+        una amabilidad - доброта
+
+        Pensar - думать #v
+        Yo pienso - я думаю
+        tú piensas - ты думаешь
+        él piensa - он думает
+        nosotros pensamos - мы думаем
+        vosotros pensais - вы думаете
+        ellos piensan - они думают
+
+        Escuchar - слушать #v
+        musica - музыка #n
+
+        // Mi hijo acaba de terminar (a) escuchar la musica
+        el pelo, el cabello - волосы
     `
 };
 
