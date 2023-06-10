@@ -772,26 +772,30 @@ export default {
 
         // Mi hijo acaba de terminar (a) escuchar la musica
         el pelo, el cabello - волосы
+    `,
+    "Lección 20": `
+        huevos fritos - яишница #n
+        pantalones cortos - шорты #n
+        la playa - пляж #n
+        tomar el sol - загорать
+        unas chanclas - шлёпанцы #n
+        a mi se me está acabando ... - у меня заканчивается ...
+        Se me ha despertado el apetito - У меня проснулся аппетит
+        el dinero - деньги #n
+        Necesitar - нужно (need) #v
+        Yo necesito - мне нужно
+        hay que - нужно (безличное)
+        del cajero autómatico - банкомат
+        Fregar - мыть (посуду, пол)
+        yo friego - я мою
+        tú friegas - ты моешь
+        él friega - он моет
+        nosotros fregamos - мы моем
+        vosotros fregais - вы моете
+        ellos friegan -  они моют
+        una vajilla - посуда
+        una lavavajillas - посудомойка
+        lavar el coche, la ropa - мыть машину, одежду
+        lavadora - стиральная машина
     `
 };
-
-/*
-        { es: "", ru: "" },
-        { es: "", ru: "", tag: "n" },
-        { es: "", ru: "", tag: "a" },
-
-        { es: "", ru: "", tag: "v" },
-        { es: "yo ", ru: "я " },
-        { es: "tú ", ru: "ты " },
-        { es: "él ", ru: "он " },
-        { es: "nosotros ", ru: "мы " },
-        { es: "vosotros ", ru: "вы " },
-        { es: "ellos ", ru: "они " },
-
-        { es: "yo me ", ru: "я " },
-        { es: "tú te ", ru: "ты " },
-        { es: "él se ", ru: "он " },
-        { es: "nosotros nos ", ru: "мы " },
-        { es: "vosotros os ", ru: "вы " },
-        { es: "ellos se ", ru: "они " },
-*/
