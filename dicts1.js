@@ -692,7 +692,7 @@ export default {
         una bolsa - пакет
         un monedero, un billetero - бумажник #v
         una cartera - портфель, бумажник
-        Perder - терять"  #v
+        Perder - терять #v
     `,
     "Lección 18": `
         descansar - отдыхать #v
