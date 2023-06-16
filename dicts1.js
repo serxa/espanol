@@ -466,7 +466,8 @@ export default {
         { es: "verano", ru: "лето", tag: "n" },
         { es: "invierno", ru: "зима", tag: "n" },
         { es: "todo", ru: "всё" },
-        { es: "también", ru: "также" },
+        { es: "también", ru: "также, тоже" },
+        { es: "tampoco", ru: "тоже не (neither)" },
 
         { es: "Poder", ru: "мочь", tag: "v" },
         { es: "yo puedo", ru: "я могу" },
@@ -645,20 +646,20 @@ export default {
         // Yo he trabaj-ado
         // tú has habl-ado
 
-        ir-ido - идти (пр. вр.)
-        ver-visto - видеть (пр. вр.)
-        decir-dicho - сказать (пр. вр.)
-        hacer-hecho - делать (пр. вр.)
-        abrir-abierto - открыть (пр. вр.)
-        escribir-escrito - писать (пр. вр.)
-        freír-frito - жарить (пр. вр.)
-        romper-roto - разрывать, ломать (пр. вр.)
-        poner-puesto - положить (пр. вр.)
-        volver-vuelto - возвращаться (пр. вр.)
-        resolver-resuelto - решить (пр. вр.)
-        morir-muerto - умереть (пр. вр.)
-        descubrir-descubierto - раскрывать (пр. вр.)
-        ser-sido - быть (пр. вр.)
+        ir-ido - идти (пр. вр.) #v
+        ver-visto - видеть (пр. вр.) #v
+        decir-dicho - сказать (пр. вр.) #v
+        hacer-hecho - делать (пр. вр.) #v
+        abrir-abierto - открыть (пр. вр.) #v
+        escribir-escrito - писать (пр. вр.) #v
+        freír-frito - жарить (пр. вр.) #v
+        romper-roto - разрывать, ломать (пр. вр.) #v
+        poner-puesto - положить (пр. вр.) #v
+        volver-vuelto - возвращаться (пр. вр.) #v
+        resolver-resuelto - решить (пр. вр.) #v
+        morir-muerto - умереть (пр. вр.) #v
+        descubrir-descubierto - раскрывать (пр. вр.) #v
+        ser-sido - быть (пр. вр.) #v
 
         nunca - никогда
         hoy - сегодня
@@ -674,7 +675,7 @@ export default {
         hace un rato - недавно
 
         desde el año pasado / mes / semana - с прошлого года / месяца / недели
-        soleado - солнечный
+        soleado - солнечный #a
 
         lo que - который
         Cerrar - закрывать #v
@@ -684,14 +685,14 @@ export default {
     `,
     "Lección 17": `
         hace ... - ... тому назад
-        un minuto - минута
-        un marido - муж
-        una hermana - сестра
-        un hermano - брат
-        un bolso - сумка
-        una bolsa - пакет
-        un monedero, un billetero - бумажник #v
-        una cartera - портфель, бумажник
+        un minuto - минута #n
+        un marido - муж #n
+        una hermana - сестра #n
+        un hermano - брат #n
+        un bolso - сумка #n
+        una bolsa - пакет #n
+        un monedero, un billetero - бумажник #n
+        una cartera - портфель, бумажник #n
         Perder - терять #v
     `,
     "Lección 18": `
@@ -736,7 +737,7 @@ export default {
         vosotros ofreceis - вы предлагаете
         ellos ofrecen - они предлагают
 
-        un puesto - должность
+        un puesto - должность #n
         mejor pagado - получше оплачеваемое
         bueno-mejor - хороший-лучше
 
@@ -757,7 +758,7 @@ export default {
 
         // Mi madre me regaña porque ella piensa que mis collegas(compis) se aprovechan de mi amabilidad
 
-        una amabilidad - доброта
+        una amabilidad - доброта #n
 
         Pensar - думать #v
         Yo pienso - я думаю
@@ -786,7 +787,7 @@ export default {
         Yo necesito - мне нужно
         hay que - нужно (безличное)
         del cajero autómatico - банкомат
-        Fregar - мыть (посуду, пол)
+        Fregar - мыть (посуду, пол) #v
         yo friego - я мою
         tú friegas - ты моешь
         él friega - он моет
@@ -795,7 +796,28 @@ export default {
         ellos friegan -  они моют
         una vajilla - посуда
         una lavavajillas - посудомойка
-        lavar el coche, la ropa - мыть машину, одежду
-        lavadora - стиральная машина
+        Lavar el coche, la ropa - мыть машину, одежду #v
+        lavadora - стиральная машина #n
+    `,
+    "Lección 20": `
+        cuarenta - 40
+        Coger frío - простыть #v
+        // Ella ha cogido frío
+        // Ella sigue con el frío
+        ¿Por qué? - почему?
+        poner en marcha - запустить #v
+        encender - включить #v
+        Yo enciendo - я включаю
+        tú enciendes - ты включаешь
+        él enciende - он включает
+        nosotros encendemos - мы включаем
+        vosotros encendeis - вы включаете
+        ellos encienden - они включают
+        una caldera - водонагреватель #n
+        una parada del bus - автобусная остановка #n
+        poner la mesa - накрыть стол
+        el mar - море #n
+        // No quiero ir al trabajo. Yo tampoco
+        // A mi no me gusta la comida japonesa. A mi tampoco
     `
 };
