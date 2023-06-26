@@ -203,8 +203,8 @@ export default {
     "Lección 3": [
         { es: "el coche", ru: "автомобиль", tag: "n" },
         { es: "el zumo", ru: "сок", tag: "n" },
-        { es: "naranja", ru: "апельсин", tag: "n" },
-        { es: "melocotón", ru: "персик", tag: "n" },
+        { es: "una naranja", ru: "апельсин", tag: "n" },
+        { es: "un melocotón", ru: "персик", tag: "n" },
         { es: "un abrigo", ru: "пальто", tag: "n" },
         { es: "avión", ru: "самолет", tag: "n" },
         { es: "cero", ru: "0" },
@@ -447,7 +447,7 @@ export default {
         { es: "fuerte", ru: "сильный", tag: "a" },
         { es: "caro", ru: "дорогой", tag: "a" },
         { es: "calle", ru: "улица", tag: "n" },
-        { es: "un frigorífico, nevera", ru: "холодильник", tag: "n" },
+        { es: "un frigorífico, una nevera", ru: "холодильник", tag: "n" },
         { es: "un congelador", ru: "морозильник", tag: "n" },
         { es: "Haber", ru: "There is", tag: "v" },
         { es: "mucho", ru: "много" },
@@ -517,7 +517,7 @@ export default {
 
         { es: "Estudiar", ru: "учить", tag: "v" },
         { es: "Decir", ru: "сказать", tag: "v" },
-        { es: "Pedir", ru: "просить", tag: "v" },
+        { es: "Pedir", ru: "просить, заказать", tag: "v" },
         { es: "Oír", ru: "слышать", tag: "v" },
 
         { es: "Traer", ru: "приносить", tag: "v" },
@@ -661,7 +661,6 @@ export default {
         descubrir-descubierto - раскрывать (пр. вр.) #v
         ser-sido - быть (пр. вр.) #v
 
-        nunca - никогда
         hoy - сегодня
         ya - уже
         todavía, aún - еще (все еще)
@@ -794,12 +793,12 @@ export default {
         nosotros fregamos - мы моем
         vosotros fregais - вы моете
         ellos friegan -  они моют
-        una vajilla - посуда
+        una vajilla - посуда #n
         una lavavajillas - посудомойка
         Lavar el coche, la ropa - мыть машину, одежду #v
         lavadora - стиральная машина #n
     `,
-    "Lección 20": `
+    "Lección 21": `
         cuarenta - 40
         Coger frío - простыть #v
         // Ella ha cogido frío
@@ -819,5 +818,43 @@ export default {
         el mar - море #n
         // No quiero ir al trabajo. Yo tampoco
         // A mi no me gusta la comida japonesa. A mi tampoco
-    `
+    `,
+    "Lección 22": `
+        estar disgustado - быть расстроеным #a
+        un novio - жених #n
+        desperdiciar - впустую потратить время #v
+        aclararse con la mente - решить (груб.) #v
+        decidir - решить #v
+        cual - какой-ая
+        unos guantes - перчатки #n
+        coger - взять #v
+        gastar - тратить (деньги) #v
+    `,
+    "Lección 23": `
+        entrar - входить #v
+        una entrada - вход #n
+        pasar las vacaciones - проводить отпуск
+        coger un bus - поймать автобус #v
+        // Hemos cogido el bus hasta Madrid
+        // Hemos cogido el bus y nos hemos ido a Madrid
+        guardar - хранить, держать #v
+        // He guardado mi dinero en el monedero
+    `,
+    "Lección 24": `
+        media hora - полчаса
+        ya está, es todo - это все
+        la papilla - каша #n
+        las uvas - виноград #n
+        una manzana - яблоко #n
+        una pera - груша #n
+        una ciruela - слива #n
+        una cereza - черешня #n
+        una sandía - арбуз #n
+        el lavado - стирка #n
+        nadie - никто #n
+        // No hay nadie en la calle
+        llamar a la puerta - постучать в дверь #v
+        sonar el timbre - позвонить в звонок
+        una cena - ужин #n
+    `,
 };
