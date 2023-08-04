@@ -601,8 +601,9 @@ export default {
         { es: "tarta", ru: "торт", tag: "n" },
         { es: "por eso", ru: "поэтому" },
 
-        { es: "Quedar", ru: "встречаться", tag: "v" },
         { es: "Viajar", ru: "путешествовать", tag: "v" },
+
+        { es: "Quedar", ru: "встречаться", tag: "v" },
 
         { es: "Quedarse bien con alguien", ru: "оставаться в хороших отношиениях с кем-то" },
         { es: "Quedarse mal con alguien", ru: "терять лицо перед кем-то" },
@@ -703,7 +704,7 @@ export default {
         una puerta - дверь #n
         una peluqueria - парикмахерская #n
         cortar el pelo - стричь #v
-        dejar - оставить #v
+        dejar - оставить, подвезти #v
     `,
     "Lección 19": `
         ventoso - ветренный
@@ -857,4 +858,313 @@ export default {
         sonar el timbre - позвонить в звонок
         una cena - ужин #n
     `,
+/*
+
+Ser/Ir (быть/идти)	Dar (дать)	Hacer (делать)	Decir (сказать)
+
+                Ser/Ir      Dar     Hacer       Decir
+yo	            fui	        di	    hice	    dije
+tú	            fuiste	    diste	hiciste	    dijiste
+él/ella/Vd	    fue	        dio	    hizo	    dijo
+nosotros/as	    fuimos	    dimos	hicimos	    dijimos
+vosotros/as	    fuisteis	disteis	hicisteis	dijisteis
+ellos/ellas/Vds	fueron	    dieron	hicieron	dijeron
+
+
+Ver (видеть)	Oir (слышать)	Leer (читать)	Querer (хотеть)
+
+                Ver     Oir     Leer        Querer
+yo	            vi	    oí      leí	        quise
+tú	            viste	oíste	leíste	    quisiste
+él/ella/Vd	    vio	    oyó	    leyó	    quiso
+nosotros/as	    vimos	oímos	leímos	    quisimos
+vosotros/as	    visteis	oísteis	leísteis	quisisteis
+ellos/ellas/Vds	vieron	oyeron	leyeron	    quisieron
+
+
+                Estar       Tener       Poder       Haber       Poner
+yo	            estuve      tuve	    pude	    hube	    puse
+tú	            estuviste	tuviste	    pudiste	    hubiste	    pusiste
+él/ella/Vd	    estuvo	    tuvo	    pudo	    hubo	    puso
+nosotros/as	    estuvimos	tuvimos	    pudimos	    hubimos	    pusimos
+vosotros/as	    estuvisteis	tuvisteis	pudisteis	hubisteis	pusisteis
+ellos/ellas/Vds	estuvieron	tuvieron	pudieron	hubieron	pusieron
+
+                I       II      III
+yo	            -é	    -í	    -í
+tú	            -aste	-iste	-iste
+él/ella/Vd	    -ó	    -ió	    -ió
+nosotros/as	    -amos	-imos	-imos
+vosotros/as	    -asteis	-isteis	-isteis
+ellos/ellas/Vds	-aron	-ieron	-ieron
+
+yo - я XXX
+tú - ты XXX
+él - он XXX
+nosotros - мы XXXи
+vosotros - вы XXXи
+ellos - они XXXи
+
+*/
+"Pretérito indefinido": `
+
+yo quise - я хотел
+tú quisiste - ты хотел
+él quiso - он хотел
+nosotros quisimos - мы хотели
+vosotros quisisteis - вы хотели
+ellos quisieron - они хотели
+
+yo leí - я читал
+tú leíste - ты читал
+él leyó - он читал
+nosotros leímos - мы читали
+vosotros leísteis - вы читали
+ellos leyeron - они читали
+
+yo oí - я слышал
+tú oíste - ты слышал
+él oyó - он слышал
+nosotros oímos - мы слышали
+vosotros oísteis - вы слышали
+ellos oyeron - они слышали
+
+yo vi - я видел
+tú viste - ты видел
+él vio - он видел
+nosotros vimos - мы видели
+vosotros visteis - вы видели
+ellos vieron - они видели
+
+yo dije - я сказал
+tú dijiste- ты сказал
+él dijo - он сказал
+nosotros dijimos - мы сказали
+vosotros dijisteis - вы сказали
+ellos dijieron - они сказали
+
+yo hice - я делал
+tú hiciste - ты делал
+él hizo - он делал
+nosotros hicimos - мы делали
+vosotros hicisteis - вы делали
+ellos hicieron - они делали
+
+yo fui - я был
+tú fuiste - ты был
+él fue - он был
+nosotros fuimos - мы были
+vosotros fuisteis - вы был
+ellos fueron - они были
+
+yo di - я дал
+tú diste - ты дал
+él dio - он дал
+nosotros dimos - мы дали
+vosotros disteis - вы дали
+ellos dieron - они дали
+
+
+yo - я
+tú - ты
+él - он
+nosotros - мы
+vosotros - вы
+ellos - они
+
+yo trabajé - я работал
+tú trabajaste - ты работал
+él trabajó - он работал
+nosotros trabajamos - мы работали
+vosotros trabajasteis - вы работали
+ellos trabajaron - они работали
+
+yo comí - я ел
+tú comiste - ты ел
+él comió - он ел
+nosotros comimos - мы ели
+vosotros comisteis - вы ели
+ellos comieron - они ели
+
+Nacer - родиться #v
+
+yo nací - я родился
+tú naciste - ты родился
+él nació - он родился
+nosotros nacimos - мы родились
+vosotros nacisteis - вы родились
+ellos nacieron - они родились
+
+yo vine - я пришел
+tú viniste - ты пришел
+él vino - он пришел
+nosotros vinimos - мы пришли
+vosotros vinisteis - вы пришли
+ellos vinieron - они пришли
+
+yo me desperté - я проснулся
+tú te despertaste - ты проснулся
+él se despertó - он проснулся
+
+Ayer - вчера
+anteayer - позавчера
+anoche - вчера ночью
+
+el día pasado - в прошлый день (вчера)
+la semana pasada - на прошлой неделе
+el mes pasado - в прошлом месяце
+el otoño pasado - прошлой осенью
+el año pasado - в прошлом году
+el siglo pasado - в прошлом веке
+el pasado fin de semana - на прошлых выходных
+
+hace cuatro horas - четыре часа назад
+hace dos días - два дня назад
+hace una semana - неделю назад
+hace dos meses - два месяца назад
+hace cinco años - пять лет тому назад
+`,
+
+
 };
+
+/*
+----------------------------------------------
+
+mañana
+mañana por la mañana
+Yo traje
+tú trajiste
+él trajo
+nosotros trajimos
+vosotros trajisteis
+ellos trajeron
+de ahí
+nos fuimos en tren hasta Barcelona
+durante 3 años
+Lleva viviendo en Madrid desde hace 3 años
+nacer
+Yo nací
+tú naciste
+él nació
+nosotros nacimos
+vosotros nacisteis
+ellos nacieron
+Primeramente
+en
+la estación del metro Mayakovskaya
+al dentista
+para quitarle su muela podrida
+podrido-гнилой,испорченный
+extraer
+la extracción
+los dientes-зубы
+una muela-зуб
+se vistió
+la gasolina
+parar-остановиться
+una gasolinera-АЗС
+rellenar-пополнить
+llenar-заполнить
+el depósito-1.бензобак
+me lo ha abierto la mujer de mi amigo
+
+----------------------------------------------
+
+afeitarse - побриться
+peinarse - причесаться
+una carniceria - мясная лавочка
+cien - сто
+
+----------------------------------------------
+
+correcto - правильный
+conducir - водить
+Yo conduje
+tú condujiste
+él condujo
+nosotros condujimos
+vosotros condujisteis
+ellos condujeron
+
+encima de - выше
+encontrarse -
+
+----------------------------------------------
+
+Me gustaría - I'd like
+
+un repollo - капуста
+una remolacha - свекла
+una berenjena - баклажан
+un guisante - горошек
+una judia verde - зелёная фасоль
+una cebolla - лук
+
+buscar - искать
+buscar a - встречать
+recoger - забирать, собирать
+aeropuerto - аэропорт
+suegra - теща
+suegro - cверкр
+
+nada - ни что
+
+asiento - место (в самолете)
+asiento de pasillo - место у прохода
+asiento junto a la ventana - место у окна
+pasillo - проход
+algún - какой-то
+equipaje - багаж
+una maleta - чемодан
+equipaje de mano - ручная кладь
+
+----------------------------------------------
+
+estar agotado - находиться в измученном состоянии
+estar decepcionado - находиться в растроенном состоянии
+
+la cabeza - голова
+la oreja - ухо
+el brazo - рука
+la mano - кисть
+la pierna - нога
+el pie - ступня
+la boca - рот
+
+poco a poco - по-тихоньку
+sonrisa - улыбка
+el cuerpo - тело
+
+el cuello - шея
+el dedo - палец
+el codo - локоть
+
+el vientre -  живот
+el estómago - желудок
+la barriga - пузо
+
+la rodilla - колено
+el hombro - плечо
+el pecho - грудь
+los labios - губы
+
+la frente - лоб
+el ojo - ухо
+la nariz - нос
+la lengua - язык
+la barbilla, el mentón - подбородок
+la barba - борода
+el bigote - усы
+una ceja - бровь
+la mejilla - щека
+la garganta - горло
+
+doler - болеть (про часть тела)
+¿Te duele la cabeza?
+
+tener dolor de - болит
+
+caminar - ходить?
+
+*/
