@@ -858,8 +858,20 @@ export default {
         sonar el timbre - позвонить в звонок
         una cena - ужин #n
     `,
-/*
 
+/*
+----------------------------------------
+Pretérito indefinido
+----------------------------------------
+                I       II      III
+yo	            -é	    -í	    -í
+tú	            -aste	-iste	-iste
+él/ella/Vd	    -ó	    -ió	    -ió
+nosotros/as	    -amos	-imos	-imos
+vosotros/as	    -asteis	-isteis	-isteis
+ellos/ellas/Vds	-aron	-ieron	-ieron
+
+---------------------------------------------------------------
 Ser/Ir (быть/идти)	Dar (дать)	Hacer (делать)	Decir (сказать)
 
                 Ser/Ir      Dar     Hacer       Decir
@@ -870,7 +882,7 @@ nosotros/as	    fuimos	    dimos	hicimos	    dijimos
 vosotros/as	    fuisteis	disteis	hicisteis	dijisteis
 ellos/ellas/Vds	fueron	    dieron	hicieron	dijeron
 
-
+---------------------------------------------------------------
 Ver (видеть)	Oir (слышать)	Leer (читать)	Querer (хотеть)
 
                 Ver     Oir     Leer        Querer
@@ -882,6 +894,7 @@ vosotros/as	    visteis	oísteis	leísteis	quisisteis
 ellos/ellas/Vds	vieron	oyeron	leyeron	    quisieron
 
 
+-------------------------------------------------------------------------
                 Estar       Tener       Poder       Haber       Poner
 yo	            estuve      tuve	    pude	    hube	    puse
 tú	            estuviste	tuviste	    pudiste	    hubiste	    pusiste
@@ -890,23 +903,43 @@ nosotros/as	    estuvimos	tuvimos	    pudimos	    hubimos	    pusimos
 vosotros/as	    estuvisteis	tuvisteis	pudisteis	hubisteis	pusisteis
 ellos/ellas/Vds	estuvieron	tuvieron	pudieron	hubieron	pusieron
 
-                I       II      III
-yo	            -é	    -í	    -í
-tú	            -aste	-iste	-iste
-él/ella/Vd	    -ó	    -ió	    -ió
-nosotros/as	    -amos	-imos	-imos
-vosotros/as	    -asteis	-isteis	-isteis
-ellos/ellas/Vds	-aron	-ieron	-ieron
-
-yo - я XXX
-tú - ты XXX
-él - он XXX
-nosotros - мы XXXи
-vosotros - вы XXXи
-ellos - они XXXи
-
 */
 "Pretérito indefinido": `
+
+yo puse - я положил
+tú pusiste - ты положил
+él puso - он положил
+nosotros pusimos - мы положили
+vosotros pusisteis - вы положили
+ellos pusieron - они положили
+
+yo hube - я имелся (haber)
+tú huiste - ты имелся (haber)
+él hubo - он имелся (haber)
+nosotros hubimos - мы имелись (haber)
+vosotros hubisteis - вы имелись (haber)
+ellos hubieron - они имелись (haber)
+
+yo pude - я мог
+tú pudiste - ты мог
+él pudo - он мог
+nosotros pudimos - мы могли
+vosotros pudisteis - вы могли
+ellos pudieron - они могли
+
+yo tuve - я имел
+tú tuviste - ты имел
+él tuvo - он имел
+nosotros tuvimos - мы имели
+vosotros tuvisteis - вы имели
+ellos tuvieron - они имели
+
+yo estuve - я находился
+tú estuviste - ты находился
+él estuvo - он находился
+nosotros estuvimos - мы находились
+vosotros estuvisteis - вы находились
+ellos estuvieron - они находились
 
 yo quise - я хотел
 tú quisiste - ты хотел
@@ -964,13 +997,12 @@ nosotros dimos - мы дали
 vosotros disteis - вы дали
 ellos dieron - они дали
 
-
-yo - я
-tú - ты
-él - он
-nosotros - мы
-vosotros - вы
-ellos - они
+Yo conduje - я водил
+tú condujiste - ты водил
+él condujo - он водил
+nosotros condujimos - мы водили
+vosotros condujisteis - вы водили
+ellos condujeron - они водили
 
 yo trabajé - я работал
 tú trabajaste - ты работал
@@ -1025,104 +1057,17 @@ hace dos meses - два месяца назад
 hace cinco años - пять лет тому назад
 `,
 
-
-};
-
-/*
-----------------------------------------------
-
-mañana
-mañana por la mañana
-Yo traje
-tú trajiste
-él trajo
-nosotros trajimos
-vosotros trajisteis
-ellos trajeron
-de ahí
-nos fuimos en tren hasta Barcelona
-durante 3 años
-Lleva viviendo en Madrid desde hace 3 años
-nacer
-Yo nací
-tú naciste
-él nació
-nosotros nacimos
-vosotros nacisteis
-ellos nacieron
-Primeramente
-en
-la estación del metro Mayakovskaya
-al dentista
-para quitarle su muela podrida
-podrido-гнилой,испорченный
-extraer
-la extracción
-los dientes-зубы
-una muela-зуб
-se vistió
-la gasolina
-parar-остановиться
-una gasolinera-АЗС
-rellenar-пополнить
-llenar-заполнить
-el depósito-1.бензобак
-me lo ha abierto la mujer de mi amigo
-
-----------------------------------------------
-
-afeitarse - побриться
-peinarse - причесаться
-una carniceria - мясная лавочка
-cien - сто
-
-----------------------------------------------
-
-correcto - правильный
-conducir - водить
-Yo conduje
-tú condujiste
-él condujo
-nosotros condujimos
-vosotros condujisteis
-ellos condujeron
-
-encima de - выше
-encontrarse -
-
-----------------------------------------------
-
-Me gustaría - I'd like
-
+"Comidas i bebidas": `
 un repollo - капуста
 una remolacha - свекла
 una berenjena - баклажан
 un guisante - горошек
 una judia verde - зелёная фасоль
 una cebolla - лук
+`,
 
-buscar - искать
-buscar a - встречать
-recoger - забирать, собирать
-aeropuerto - аэропорт
-suegra - теща
-suegro - cверкр
-
-nada - ни что
-
-asiento - место (в самолете)
-asiento de pasillo - место у прохода
-asiento junto a la ventana - место у окна
-pasillo - проход
-algún - какой-то
-equipaje - багаж
-una maleta - чемодан
-equipaje de mano - ручная кладь
-
-----------------------------------------------
-
-estar agotado - находиться в измученном состоянии
-estar decepcionado - находиться в растроенном состоянии
+"El cuerpo": `
+el cuerpo - тело
 
 la cabeza - голова
 la oreja - ухо
@@ -1131,10 +1076,6 @@ la mano - кисть
 la pierna - нога
 el pie - ступня
 la boca - рот
-
-poco a poco - по-тихоньку
-sonrisa - улыбка
-el cuerpo - тело
 
 el cuello - шея
 el dedo - палец
@@ -1150,8 +1091,9 @@ el pecho - грудь
 los labios - губы
 
 la frente - лоб
-el ojo - ухо
+el ojo - глаз
 la nariz - нос
+la espalda - спина
 la lengua - язык
 la barbilla, el mentón - подбородок
 la barba - борода
@@ -1160,11 +1102,80 @@ una ceja - бровь
 la mejilla - щека
 la garganta - горло
 
-doler - болеть (про часть тела)
-¿Te duele la cabeza?
+los dientes-зубы
+una muela-зуб
+sonrisa - улыбка
+lavar mi boca - чистить зубы
 
+a él le doler - у него болит (про часть тела)
 tener dolor de - болит
 
-caminar - ходить?
+`,
+
+"Lección 25": `
+аfuera - снаружи
+atún - тунец
+un examen - экзамен
+
+afeitarse - побриться
+peinarse - причесаться
+una carniceria - мясная лавочка
+cien - сто
+correcto - правильный
+conducir - водить
+
+Me gustaría - я бы хотел
+
+buscar - искать
+buscar a - встречать
+recoger - забирать, собирать
+aeropuerto - аэропорт
+suegra - теща
+suegro - cвекр
+
+nada - ни что
+
+asiento - место (в самолете)
+asiento de pasillo - место у прохода
+asiento junto a la ventana - место у окна
+pasillo - проход
+algún - какой-то
+equipaje - багаж
+una maleta - чемодан
+equipaje de mano - ручная кладь
+primeramente - вначале
+
+el dentista - стоматолог
+podrido - гнилой, испорченный
+quitarle, extraer - вырывать
+parar - остановиться
+una gasolinera - АЗС
+rellenar - пополнить
+llenar - заполнить
+el depósito - бензобак
+encima de - выше
+encontrarse - встретить
+caminar - ходить
+poco a poco - по-тихоньку
+
+estar agotado - находиться в измученном состоянии
+estar decepcionado - находиться в растроенном состоянии
+
+mostrar - показывать
+el reloj - часы
+demostrar - доказать
+aúnque - хотя
+abrigarse - одеваться по-теплее
+un pes - рыба
+un tiburón - акула
+
+girar -  поворачивать
+un cepillo - щетка
+un fregona - швабра
+`
+
+};
+
+/*
 
 */
