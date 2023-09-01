@@ -1127,7 +1127,7 @@ conducir - водить
 Me gustaría - я бы хотел
 
 buscar - искать
-buscar a - встречать
+buscar a alguien - встречать кого-то
 recoger - забирать, собирать
 aeropuerto - аэропорт
 suegra - теща
@@ -1150,6 +1150,7 @@ podrido - гнилой, испорченный
 quitarle, extraer - вырывать
 parar - остановиться
 una gasolinera - АЗС
+la gasolina - бензин
 rellenar - пополнить
 llenar - заполнить
 el depósito - бензобак
@@ -1172,10 +1173,180 @@ un tiburón - акула
 girar -  поворачивать
 un cepillo - щетка
 un fregona - швабра
-`
-
-};
+`,
 
 /*
+I спряжение (-ar)	II спряжение (-er)	III спряжение (-ir)
+yo	            -aba	-ía	    -ía
+tú	            -abas	-ías	-ías
+él/ella/Vd	    -aba	-ía	    -ía
+nosotros/as	    -ábamos	-íamos	-íamos
+vosotros/as	    -abais	-íais	-íais
+ellos/ellas/Vds	-aban	-ían	-ían
+
+TRABAJAR
+Yo trabajaba
+tú trabajabas
+él trabajaba
+nosotros trabajábamos
+vosotros trabajais
+ellos trabajaban
+
+COMER
+Yo comía
+tú comías
+él comía
+nosotros comíamos
+vosotros comíais
+ellos comían
+
+                    Ser	    Ir	    Ver
+yo	                era	    iba	    veía
+tú	                eras	ibas	veías
+él/ella/Vd	        era	    iba	    veía
+nosotros/as	        éramos	íbamos	veíamos
+vosotros/as	        erais	ibais	veíais
+ellos/ellas/Vds	    eran	iban	veían
+*/
+
+"Pretérito imperfecto": `
+
+yo era - я был (imperfecto)
+tú eras - ты был (imperfecto)
+él era - он был (imperfecto)
+nosotros éramos - мы были (imperfecto)
+vosotros erais - вы были (imperfecto)
+ellos eran - они были (imperfecto)
+
+yo iba - я шел (imperfecto)
+tú ibas - ты шел (imperfecto)
+él iba - он шел (imperfecto)
+nosotros íbamos - мы шли (imperfecto)
+vosotros ibais - вы шли (imperfecto)
+ellos iban - они шли (imperfecto)
+
+yo veía - я видел (imperfecto)
+tú veías - ты видел (imperfecto)
+él veía - он видел (imperfecto)
+nosotros veíamos - мы видели (imperfecto)
+vosotros veíais - вы видели (imperfecto)
+ellos veían - они видели (imperfecto)
+
+siempre - всегда
+antes - раньше, прежде
+de ordinario - обычно
+
+mientras - в то время как, пока
+
+Habitualmente - обычно
+Cada día - каждый день
+Cada vez que ... - каждый раз когда ...
+A menudo - часто
+De niño / pequeño - в детстве
+Todos los… (días, meses, semanas, sábados, etc.) - все дни, месяцы, недели, субботы
+Cuando era… (joven, niño, pequeño) - когда был молодым, ребенком, маленьким
+`,
+
+"Lección 26": `
+
+el ajedrez - шахматы
+
+diez - 10
+veinte - 20
+treinta - 30
+cuarenta - 40
+cincuenta - 50
+sesenta - 60
+setenta - 70
+ochenta - 80
+noventa - 90
+cien - 100
+ciento diez - 110
+doscientos - 200
+
+el uniforme - униформа
+fijarse - обращать внимание
+falda - юбка
+sucio - грязный
+limpio - чистый
+regalar - дарить
+tan - так (перед прилагательными)
+tanto/a - столько
+demasiado - слишком
+el pueblo - деревня
+
+lavarse - умываться
+// lo используется с неодушевленными и le с одушеленныме
+retirar - снять (деньги)
+acercarse - приближаться, подвезти
+apuntarse a - записаться
+baile - танцы
+bailar - танцевать
+pidir una cita con - записаться на прием к
+una cita prevía - предварительная запись
+una cita - свидание, прием
+jubilarse - выходить на пенсию
+asumir su cargo - занять  его должность
+encargado - заведующий
+obligar - заставить
+pillar - застать
+un atasco - пробка
+
+montar en caballo - кататься на лошади
+montar en moto - кататься на мотоцикле
+montar en bici - кататься на велосипеде
+bicicleta - велосипед
+armario - шкаф
+Montar - собирать
+Permitir - разрешать
+peligroso - опасный
+un peligro - опасность
+Parir, dar la luz - рожать
+quedarse embarazada - забеременеть
+Nadie está en casa - никого не было дома
+Robar - красть
+
+el otoño - осень
+la primavera - весна
+me dar tristeza - стало грустно
+ser triste - быть грустным
+el país - страна
+me da pena - становиться жалко
+¡Que pena! - какая жалость
+recordar - помнить
+acordarse - припоминать
+subir - подниматься
+subir el precio - поднятие цен
+el precio - цена
+una escalera - лестница
+la bañera - ванная
+vacio - пустой
+con las manos en la masa - с поличным
+la masa - тесто
+la mancha - пятно
+una manga - рукав
+`
+
+/*
+
+contenidos - содержание
+estelar - звездный
+la estralla - звезда
+vía láctera - млечный путь
+cósmico - космический
+galáctico - галактичечкий
+la galaxia - галактика
+la estructura - структура
+entender - понимать
+cosa - вещь
+lucha - борьба
+contra - против
+la gravedad - гравитация
+la arma - оружие
+la presión - давление
+el movimiento - движение
+la radiación - излучение
+
+---------------------------
 
 */
