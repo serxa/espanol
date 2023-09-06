@@ -1325,9 +1325,53 @@ con las manos en la masa - с поличным
 la masa - тесто
 la mancha - пятно
 una manga - рукав
-`
+`,
 
 /*
+Pretérito Pluscuamperfecto
+
+Лица	            Формы глагола haber
+yo              	había
+tú	                habías
+él/ella/usted	    había
+nosotros/as	        habíamos
+vosotros/as	        habíais
+ellos/ellas/ustedes	habían
+
+Haber (склоняются) + глагол в Pretérito Perfecto (не склоняются, -ado/ido)
+
+Ejemplos:
+Cuando llegamos a la estación el tren ya había salido
+Mi familia había empezado a cenar antes de que yo vine a casa
+Mi mujer fue al trabajo después de que yo me había levantado
+Durante 3 años Anna había vivido en Madrid, pero el mes pasado se trasladó a Moscú
+
+Возвратные частицы ставятся перед глаголом Haber:
+Cuando mi mujer preparaba la cena mi hija ya se había levantado
+
+Придаточное предложение вводимое через con quien:
+Anna con quien yo había trabajado pasó algún tiempo conmigo en el pueblo
+
+Слова указатели:
+ya - уже
+todavía no - еще нет
+antes de que - перед тем, как
+después de que - после того, как
+
+*/
+"Lección 26": `
+
+trasladarse - переезжаем из города в города
+mudar(se) - переезжаем из квартиры в квартиру (в рамках одного города)
+creer - предполагать
+el ejercito - армия
+
+prestar - одалживать
+
+¿Cuánto ganas? - сколько ты зарабатываешь?
+Ganar - выигрывать, зарабатывать
+ganar el peso - прибавить в весе
+engordarse - потолстеть
 
 contenidos - содержание
 estelar - звездный
@@ -1347,8 +1391,6 @@ la presión - давление
 el movimiento - движение
 la radiación - излучение
 
----------------------------
-
-*/
+`,
 
 }
